@@ -1,0 +1,63 @@
+<!-- Vince Dela Roca 30005203 SENG 513 Assignment 3 -->
+
+<html>
+  <head>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="messagingbox">
+        <div class="userlist">
+          <div class="users_connected">
+            <div class="headline">
+              <div class="headborder">
+                <h4>Users</h4>
+              </div>
+            </div>
+            <div class="users_container">
+              <div class="connected_users_list active_users">
+                <div class="connected_people" id="connected_people"></div>
+              </div>
+            </div>
+          </div>
+          <div class="messages">
+            <h3 id="welcome-text">Welcome User</h3>
+            <div class="messaging_history" id="messaging_history"></div>
+            <div class="type_msg">
+              <div class="input_msg_write">
+                <input
+                  type="text"
+                  class="write_msg"
+                  id="write_msg"
+                  placeholder="Type a message"
+                />
+                
+                <button
+                  class="msg_send_button"
+                  id="messageSendButton"
+                  type="button"
+                >
+                  <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/socket.io/socket.io.js"></script>
+  <script type="text/javascript" src="./js/main.js"></script>
+</html>

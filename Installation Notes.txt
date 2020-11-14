@@ -1,0 +1,6 @@
+On command console:
+
+npm install
+npm run dev
+
+Then go to your localhost:3000
