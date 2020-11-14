@@ -1,6 +1,7 @@
 On command console:
 
 npm install
+npm install express socket.io moment
 npm run dev
 
 Then go to your localhost:3000
