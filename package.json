@@ -1,6 +1,6 @@
 {
-  "name": "seng 513 chatroom",
-  "version": "1.0",
+  "name": "seng513chatroom",
+  "version": "1.0.0",
   "description": "seng 513 chatroom",
   "main": "server.js",
   "scripts": {
@@ -8,8 +8,11 @@
     "dev": "nodemon server"
   },
   "dependencies": {
+	"moment": "^2.29.1",
     "express": "^4.17.1",
-    "moment": "^2.29.1",
     "socket.io": "^3.0.1"
+  },
+    "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
