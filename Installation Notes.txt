@@ -1,7 +1,19 @@
-On command console:
+# Instructions
 
-npm install
-npm install express socket.io moment
-npm run dev
+npm install  
+npm run dev  
+  
+(just npm install should work just fine. If it doesn't, the chat uses express, moment, nodemon and socket.io)  
+  
+localhost:3000  
+  
+# Commands  
+  
+/name {User} -- to change username (paranthesis included)  
+/color {RRGGBB}} - to change username color (paranthesis included)  
+  
+# Not Included  
 
-Then go to your localhost:3000
+* The chat log should be aligned at the bottom.
+* Chat log history
+* The app should span 100% of the height of the browser.
