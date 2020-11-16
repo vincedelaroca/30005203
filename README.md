@@ -1,14 +1,16 @@
+## Read Me First
 # ** Updated Since D2L **  
-Please download this instead of the D2L upload. No changes were made to the code. Some files I forgot to remove, and some quick fixes to the .json file to make it work on linux.
+Please download this instead of the D2L upload. No changes were made to the code. Some files I forgot to remove, and some quick fixes to the .json file to make it work on linux. Instructions are made clear on github.
 
 # Instructions
 
 npm install  
-npm install express socket.io moment  
 npm run dev  
   
+(just npm install should work just fine. If it doesn't, the chat uses express, moment, nodemon and socket.io)  
+  
 localhost:3000  
-
+  
 # Commands  
   
 /name {User} -- to change username (paranthesis included)  
