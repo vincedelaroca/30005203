@@ -1,4 +1,7 @@
-# Read Me
+# ** Updated Since D2L **  
+Please download this instead of the D2L upload.
+
+# Instructions
 
 npm install  
 npm install express socket.io moment  
@@ -15,4 +18,4 @@ localhost:3000
 
 * <em>The chat log should be aligned at the bottom.</em>
 * <em>Chat log history</em>
-* <emThe app should span 100% of the height of the browser.</em>
+* <em>The app should span 100% of the height of the browser.</em>
