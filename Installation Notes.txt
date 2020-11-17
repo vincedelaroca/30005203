@@ -16,4 +16,3 @@ localhost:3000
 
 * The chat log should be aligned at the bottom.
 * Chat log history
-* The app should span 100% of the height of the browser.
