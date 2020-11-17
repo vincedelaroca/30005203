@@ -2,6 +2,7 @@ body {
   background-color: #5b6069;
 }
 .container {
+  height: 100%;
   max-width: 960px;
   margin: auto;
   background-color: #c9e7f0;
@@ -16,6 +17,7 @@ img {
   width: 30%;
   background-color: #c9e7f0;
   border-right: 1px solid #c4c4c4;
+  height: 95%;
 }
 .userlist {
   border: 1px solid #c4c4c4;
@@ -161,7 +163,7 @@ img {
   margin-top: 6px;
 }
 .messaging_history {
-  height: 516px;
+  height: 85%;
   overflow-y: auto;
 }
 .messages h3 {
