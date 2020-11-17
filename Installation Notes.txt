@@ -15,4 +15,5 @@ localhost:3000
 # Not Included  
 
 * The chat log should be aligned at the bottom.
-* Chat log history
+* Chat log history  
+* Once the color has been changed, all messages, past and future, from that user should be displayed with the new colored username, for all users.
