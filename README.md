@@ -1,6 +1,6 @@
 ## Read Me First
 # ** Updated Since D2L **  
-Please download this instead of the D2L upload. No changes were made to the code. Some files I forgot to remove, and some quick fixes to the .json file to make it work on linux. Instructions are made clear on github.
+Please download this instead of the D2L upload. No changes were made to the code. Some files I forgot to remove, and some quick fixes to the .json file to make it work on linux. Instructions are made clear on github. Design changes also.
 
 # Instructions
 
@@ -20,4 +20,3 @@ localhost:3000
 
 * <em>The chat log should be aligned at the bottom.</em>
 * <em>Chat log history</em>
-* <em>The app should span 100% of the height of the browser.</em>
